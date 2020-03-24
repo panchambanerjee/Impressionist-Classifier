@@ -133,3 +133,5 @@ dataset/
 
 #Project level dictionaries
 .idea/
+
+.DS_Store
