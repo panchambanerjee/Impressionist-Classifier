@@ -80,8 +80,8 @@ if __name__ == "__main__":
     artist_lst = ['Pissarro', 'Hassam', 'Monet', 'Degas', 'Matisse',
                   'Sargent', 'Cezanne', 'Gauguin', 'Renoir', 'VanGogh']
 
-    train_idx = 399
-    valid_idx = 99
+    train_idx = 400
+    valid_idx = 100
 
     for artist in artist_lst:
         split_data(root_dir, artist, train_idx, valid_idx)
