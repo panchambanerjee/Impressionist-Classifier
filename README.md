@@ -14,8 +14,7 @@ Training a Multi-Class Classifier to distinguish between Impressionist Painters
 * Vincent van Gogh
 
 #### We have downloaded the relevant datasets from Wikiart using https://github.com/lucasdavid/wikiart
--- This comprises all the downloadable paintings from wikiart for all the above 10 artists (they were chosen based on having > 500 paintings each in the WikiArt database. The paintings are downloaded into folders for each artist separated by year.
-
+-- This comprises all the downloadable paintings from wikiart for all the above 10 artists (they were chosen based on having > 500 paintings each in the WikiArt database. 
 
 #### Briefly, the data acquisition process is as follows:
 * We download the Wikiart files for the relevant artists using lucasdavid's extremely useful script (Please star the project if you can). 
