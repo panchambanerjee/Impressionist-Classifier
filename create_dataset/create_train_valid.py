@@ -74,6 +74,7 @@ def check_files(root, artist_name):
 
 if __name__ == "__main__":
 
+    # Root directory specific to my local machine
     root_dir = '/Users/panchamb/Documents/Wikiart/wikiart/Impressionists/'
 
     artist_lst = ['Pissarro', 'Hassam', 'Monet', 'Degas', 'Matisse',

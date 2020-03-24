@@ -40,6 +40,7 @@ if __name__ == "__main__":
     dest_artist_lst = ['Pissarro', 'Hassam', 'Monet', 'Degas', 'Matisse',
                        'Sargent', 'Cezanne', 'Gauguin', 'Renoir', 'VanGogh']
 
+    # Directories specific to my local machine
     root_dir = '/Users/panchamb/Documents/Wikiart/wikiart/wikiart-saved/images/'
     destination_dir = '/Users/panchamb/Documents/Wikiart/wikiart/Impressionists/'
 
