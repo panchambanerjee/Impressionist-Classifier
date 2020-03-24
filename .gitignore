@@ -131,3 +131,5 @@ dmypy.json
 #Dataset
 dataset/
 
+#Project level dictionaries
+.idea/
