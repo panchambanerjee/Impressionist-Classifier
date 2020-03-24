@@ -21,3 +21,6 @@ Training a Multi-Class Classifier to distinguish between Impressionist Painters
 * We download the Wikiart files for the relevant artists using lucasdavid's extremely useful script (Please star the project if you can). 
 * The downloaded files for each artist are split into years. We write a simple script to copy all the files for one artist into one dedicated folder.
 * Then we create the train and validation sets, with 400 train images and 100 validation images respectively for each of the 10 artists. 
+* For anyone looking to replicate the dataset creation process, downloading the images from Wikiart, and then replacing the local directory references in the two scripts in create_dataset/ will suffice.
+* Alternatively, the dataset may be downloaded from Kaggle: www.kaggle.com/delayedkarma/impressionist-classifier-data
+
