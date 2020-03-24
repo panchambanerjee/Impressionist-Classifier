@@ -20,4 +20,4 @@ Training a Multi-Class Classifier to distinguish between Impressionist Painters
 #### Briefly, the data acquisition process is as follows:
 * We download the Wikiart files for the relevant artists using lucasdavid's extremely useful script (Please star the project if you can). 
 * The downloaded files for each artist are split into years. We write a simple script to copy all the files for one artist into one dedicated folder.
-* Then we create the train and validation sets, with 400 images and 100 images respectively for each of the 10 artists. 
+* Then we create the train and validation sets, with 400 train images and 100 validation images respectively for each of the 10 artists. 
