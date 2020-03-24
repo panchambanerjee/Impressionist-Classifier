@@ -49,6 +49,29 @@ def split_data(root, artist_name, train_split_idx, valid_split_idx):
         copy2(path_file, valid_dir)
 
 
+def check_files(root, artist_name):
+    """
+    Function to verify that train and valid files are distinct
+    :param root: Root directory
+    :arg root: str
+    :param artist_name: Artist name
+    :arg artist_name: str
+    :return: None
+    """
+
+    print(f"Checking for duplicates for {artist_name}")
+
+    train_dir = os.path.join(root, 'training', artist_name)
+    valid_dir = os.path.join(root, 'validation', artist_name)
+
+    train_files = os.listdir(train_dir)
+    valid_files = os.listdir(valid_dir)
+
+    duplicate_files = len(set(train_files) & set(valid_files))
+
+    print(f"{duplicate_files} duplicates for {artist_name}")
+
+
 if __name__ == "__main__":
 
     root_dir = '/Users/panchamb/Documents/Wikiart/wikiart/Impressionists/'
@@ -56,11 +79,11 @@ if __name__ == "__main__":
     artist_lst = ['Pissarro', 'Hassam', 'Monet', 'Degas', 'Matisse',
                   'Sargent', 'Cezanne', 'Gauguin', 'Renoir', 'VanGogh']
 
-    num_train = 399
-    num_valid = 99
+    train_idx = 399
+    valid_idx = 99
 
     for artist in artist_lst:
-        split_data(root_dir, artist, num_train, num_valid)
+        split_data(root_dir, artist, train_idx, valid_idx)
 
-
-
+    for artist in artist_lst:
+        check_files(root_dir, artist)
