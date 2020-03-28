@@ -135,3 +135,7 @@ dataset/
 .idea/
 
 .DS_Store
+
+logs/
+
+*.png
