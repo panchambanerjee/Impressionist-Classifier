@@ -145,3 +145,6 @@ dataset_features/
 *.zip
 
 saved_models/
+
+# All test Jupyter notebooks
+first_trials.ipynb
