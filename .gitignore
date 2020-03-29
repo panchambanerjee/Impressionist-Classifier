@@ -139,3 +139,7 @@ dataset/
 logs/
 
 *.png
+
+dataset_features/
+
+*.zip
